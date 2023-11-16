@@ -5,4 +5,6 @@ function adicionarFilme() {
 
     elementoListaFilmes.innerHTML = elementoListaFilmes.innerHTML + '<img src=' + filmeFavorito + '>'
 
+    document.getElementById('filme').value = ''
+
 }
